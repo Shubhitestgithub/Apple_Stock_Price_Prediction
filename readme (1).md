@@ -86,7 +86,7 @@ The LSTM model is a more advanced type of RNN designed to handle long-range depe
 
 ## **Hyperparameter Tuning**
 
-Hyperparameter tuning is performed using **Random Search**, where different combinations of hyperparameters are randomly sampled and tested. The parameters being tuned include:
+Hyperparameter tuning is performed using **Grid Search**, where different combinations of hyperparameters are sampled and tested. The parameters being tuned include:
 
 * **Units:** Number of units in the RNN or LSTM layers.
 
